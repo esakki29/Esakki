@@ -1,14 +1,54 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "students":[
+      {
+         "id":1,
+         "name":"Student 1",
+         "standard":1
+      },
+      {
+         "id":2,
+         "name":"Student 2",
+         "standard":2
+      },
+      {
+         "id":3,
+         "name":"Student 3",
+         "standard":3
+      }
+   ],
+   "studentDetails":[
+      {
+         "id":1,
+         "name":"Student 1",
+         "standard":1,
+         "tamil":50,
+         "english":20,
+         "math":50,
+         "science":70,
+         "socialScience":100
+      },
+      {
+         "id":2,
+         "name":"Student 2",
+         "standard":2,
+         "tamil":50,
+         "english":20,
+         "math":50,
+         "science":70,
+         "socialScience":100
+      },
+      {
+         "id":2,
+         "name":"Student 3",
+         "standard":3,
+         "tamil":50,
+         "english":20,
+         "math":50,
+         "science":70,
+         "socialScience":100
+      }
+   ],
+   "profile":{
+      "name":"Students"
+   }
 }
